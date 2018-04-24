@@ -1,0 +1,123 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+.singel-item{
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    position: relative;
+    height: 600px;
+}
+.item-bg-1{
+    background-image: url(../img/bg-1.jpg)
+}
+.item-bg-2{
+    background-image: url(../img/bg-2.jpg)
+}
+.item-bg-3{
+    background-image: url(../img/bg-3.jpg)
+}
+.item-bg-4{
+    background-image: url(../img/bg-4.jpg)
+}
+.item-bg-5{
+    background-image: url(../img/bg-5.jpg)
+}
+.half-height{
+    height: 300px;
+}
+
+.no-padding {
+    padding: 0;
+  }
+  .hover-item {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 31%;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .hover-item a {
+    font-size: 20px;
+    color: #40a001;
+  }
+  .hover-item h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 3;
+    margin: -8px;
+  }
+  .hover-item p {
+    font-size: 15px;
+  }
+  .hover-item:after {
+    position: absolute;
+    height: 86%;
+    width: 90%;
+    content: "";
+    left: 5%;
+    top: -24%;
+    background-color: #333;
+    z-index: -1;
+  }
+  .singel-item:hover .hover-item {
+    opacity: .7;
+    visibility: unset;
+  }
+  .singel-item:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    top: 0;
+    background-color: #333;
+    opacity: .3;
+  }
+  .section-padding {
+    padding: 100px 0;
+  }
+  .section-heiding {
+    text-align: center;
+  }
+  .section-heiding h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #474747;
+    margin-bottom: 25px;
+  }
+  .section-heiding p {
+    color: #818181;
+    margin-bottom: 75px;
+  }
